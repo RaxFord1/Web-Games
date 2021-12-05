@@ -1,0 +1,108 @@
+
+body html{
+    width:100%;
+    height:100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    scrollbar-width: none;
+}
+
+header {
+    height: 10%;
+    font-size: 2vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#pattern {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: fixed repeat center center;
+    opacity: 0.5;
+    background-image:url('http://www.fa-d.com/wp-content/themes/fa-design/library/media/images/pattern.png');
+}
+
+.href a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+}
+
+
+.bot{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 50%;
+    justify-content: space-around;
+}
+
+.menu{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lefttop{
+    background-color: #436c3c;
+    border: 6px solid #25521d;
+    border-radius: 20px 0px 20px 0px;
+    
+}
+
+.righttop{
+    color: white;
+    background-color: #3c4a6c;
+    border: 6px solid #1d2d52;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.leftbot{
+    color: white;
+    background-color: #6c503c;
+    border: 6px solid #52331d;
+    border-radius: 0px 20px 0px 20px ;
+}
+
+.rightbot{
+    background-color: #8f8f8f;
+    border: 6px solid #765e5e;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.menu_block{
+    margin: 10px;
+    height: 90%;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
